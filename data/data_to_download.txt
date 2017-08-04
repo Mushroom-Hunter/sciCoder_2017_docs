@@ -2,8 +2,18 @@
 #
 # source data_to_download.txt
 #
-curl -O https://dr14.sdss.org/sas/dr14/eboss/spectro/redux/v5_10_0/spectra/lite/0000/spec-0000-57346-0019.fits
-curl -O https://dr14.sdss.org/sas/dr14/eboss/spectro/redux/v5_10_0/spectra/lite/0000/spec-0000-57346-0020.fits
+curl -O https://dr14.sdss.org/sas/dr14/eboss/spectro/redux/v5_10_0/spectra/lite/10000/spec-10000-57346-0002.fits
+curl -O https://dr14.sdss.org/sas/dr14/eboss/spectro/redux/v5_10_0/spectra/lite/10000/spec-10000-57346-0003.fits
+curl -O https://dr14.sdss.org/sas/dr14/eboss/spectro/redux/v5_10_0/spectra/lite/10000/spec-10000-57346-0004.fits
+curl -O https://dr14.sdss.org/sas/dr14/eboss/spectro/redux/v5_10_0/spectra/lite/10000/spec-10000-57346-0005.fits
+curl -O https://dr14.sdss.org/sas/dr14/eboss/spectro/redux/v5_10_0/spectra/lite/10000/spec-10000-57346-0006.fits
+curl -O https://dr14.sdss.org/sas/dr14/eboss/spectro/redux/v5_10_0/spectra/lite/10000/spec-10000-57346-0007.fits
+curl -O https://dr14.sdss.org/sas/dr14/eboss/spectro/redux/v5_10_0/spectra/lite/10000/spec-10000-57346-0008.fits
+curl -O https://dr14.sdss.org/sas/dr14/eboss/spectro/redux/v5_10_0/spectra/lite/10000/spec-10000-57346-0009.fits
+curl -O https://dr14.sdss.org/sas/dr14/eboss/spectro/redux/v5_10_0/spectra/lite/10000/spec-10000-57346-0010.fits
+curl -O https://dr14.sdss.org/sas/dr14/eboss/spectro/redux/v5_10_0/spectra/lite/10000/spec-10000-57346-0019.fits
+curl -O https://dr14.sdss.org/sas/dr14/eboss/spectro/redux/v5_10_0/spectra/lite/10000/spec-10000-57346-0020.fits
+curl -O https://dr14.sdss.org/sas/dr14/eboss/spectro/redux/v5_10_0/spectra/lite/10000/spec-10000-57346-0021.fits
 curl -O https://dr14.sdss.org/sas/dr14/eboss/spectro/redux/v5_10_0/spectra/lite/4055/spec-4055-55359-0001.fits
 curl -O https://dr14.sdss.org/sas/dr14/eboss/spectro/redux/v5_10_0/spectra/lite/4055/spec-4055-55359-0006.fits
 curl -O https://dr14.sdss.org/sas/dr14/eboss/spectro/redux/v5_10_0/spectra/lite/4055/spec-4055-55359-0010.fits

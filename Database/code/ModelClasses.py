@@ -70,3 +70,20 @@ Student.supervisors = relation(Supervisor,
 # 							   foreign_keys=[StudentToSupervisor.student_id, StudentToSupervisor.supervisor_id],
 # 							   backref="students")
 
+# ---------------------------------------------------------
+# Test that all relations/mappings are self-consistent.
+# ---------------------------------------------------------
+
+from sqlalchemy.orm import configure_mappers
+try:
+	configure_mappers()
+except RuntimeError:
+	print("""
+An error occurred when verifying the relations between the database tables.
+Most likely this is an error in the definition of the SQLAlchemy relations - 
+see the error message below for details.
+""")
+	print("Error type: %s" % sys.exc_info()[0])
+	print("Error value: %s" % sys.exc_info()[1])
+	print("Error trace: %s" % sys.exc_info()[2])
+	sys.exit(1)
